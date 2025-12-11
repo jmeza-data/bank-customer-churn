@@ -2,7 +2,7 @@
 
 ## 📹 Demo del Proyecto
 
-https://github.com/nursena8/BankCustomerProject/assets/115145369/Video%20de%20WhatsApp%202025-12-11%20a%20las%2016.31.26_6b7db65f.mp4
+[Ver video de demostración](https://drive.google.com/file/d/1GLMM75E0GOltxxsOZ-YCTNCXCsI3o2UO/view?usp=sharing)
 
 ---
 
@@ -19,7 +19,7 @@ Proyecto de machine learning para predecir qué clientes pueden abandonar el ban
 
 ## 🚀 Aplicación en Vivo
 
-**[Ver aplicación](https://bankcustomerproject-4feyynfr99jzzpcegoeuq7.streamlit.app/)**
+**[Ver aplicación →](https://bankcustomerproject-4feyynfr99jzzpcegoeuq7.streamlit.app/)**
 
 ⚠️ **Nota**: Abre la aplicación en Google Chrome (Safari puede tener problemas)
 
@@ -33,7 +33,6 @@ Proyecto de machine learning para predecir qué clientes pueden abandonar el ban
 - **Matplotlib & Seaborn** - Visualizaciones
 
 ## 📁 Archivos Importantes
-
 ```
 ├── app.py                          # Aplicación Streamlit
 ├── project.ipynb                   # Notebook principal
@@ -47,29 +46,28 @@ Proyecto de machine learning para predecir qué clientes pueden abandonar el ban
 
 ## 🔧 Instalación
 
-1. **Clonar el repositorio**
+**1. Clonar el repositorio**
 ```bash
-git clone https://github.com/nursena8/BankCustomerProject.git
-cd BankCustomerProject
+git clone https://github.com/jmeza-data/bank-customer-churn.git
+cd bank-customer-churn
 ```
 
-2. **Instalar dependencias**
+**2. Instalar dependencias**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Ejecutar la aplicación**
+**3. Ejecutar la aplicación**
 ```bash
 streamlit run app.py
 ```
 
-4. **Abrir en el navegador**
+**4. Abrir en el navegador**
 ```
 http://localhost:8501
 ```
 
 ## 🐳 Ejecutar con Docker
-
 ```bash
 # Construir imagen
 docker build -t bank-churn-app .
@@ -84,7 +82,6 @@ docker run -p 8501:8501 bank-churn-app
 - **Clustering**: KMeans para segmentación
 
 ## 📊 Monitoreo con Evident AI
-
 ```bash
 pip install evidently
 ```
@@ -105,19 +102,14 @@ El proyecto incluye dashboards para monitorear:
 
 MIT License
 
-## 👩‍💻 Autora
+## 👥 Autores
 
-**Nursena Baykir**
-
-📧 nursenabaykir@gmail.com
+- **Jhoan Meza Garcia**
+- **Julian Linares Solaque**
+- **Sebastian Sabares Segovia**
 
 ---
 
 ⭐ Si te gustó el proyecto, ¡dale una estrella en GitHub!
-
-
-
-
-
 
 
